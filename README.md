@@ -1,5 +1,5 @@
 # Notas:
 este un proyecto con socket.
-```
-npm install
-```
+
+Envia y recibe mansajes.
+

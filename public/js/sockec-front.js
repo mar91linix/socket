@@ -1,11 +1,8 @@
-
-
-    var socket = io();
-
-
+ var socket = io();
+ // ON escuchar
 
 socket.on('connect', function () {
-        console.log('conectado al servidor');
+        console.log('conectado al server');
 
 });
 
@@ -13,6 +10,7 @@ socket.on('disconnect', function () {
         console.log('se ha perdido la conecxion del servidor');
 });
 
+// Emit  emitor o enviar
 socket.emit('enviarMensaje', {
         user: 'David',
     message: 'Hola ,soy yo :)'
